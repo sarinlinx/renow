@@ -1,0 +1,54 @@
+/*___________________________________________________
+General Styles
+___________________________________________________*/
+  body, html {
+    /* Fills entire browser when loaded */
+    height: 100%;
+    font-family: 'Alegreya Sans', sans-serif;
+  }
+
+  /*HEADER*/
+  #header {
+    background: url(../img/purple-gradient.png) center center no-repeat;
+    /*span the entire container*/
+    background-size: cover;
+    height: 100%;
+      /* Enable a flex container for this element */
+    display: flex;
+    /* Center this section vertifcally and horizontally */
+    align-items: center;
+  }
+
+  #header img {
+    padding-bottom: 80px;
+    /* Adjust size of image */
+    /* width: 80%; */
+  }
+
+  /* Add transparent background to header form section */
+
+  #header .header-right {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  #header .fas {
+    margin: 5% 0;
+  }
+
+  /* Change color of font awesome icon */
+
+  #header a .fas {
+    color: #fff;
+  }
+
+  #header a .fas:hover {
+    color: #ccc;
+  }
+
+  #logo {
+  -moz-box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
+  -webkit-box-shadow:inset 0px 0px 3px 1px rgba(0,0,0,1);
+  box-shadow:inset 0px 0px 13px 11px rgba(244,244,0,1);
+}
