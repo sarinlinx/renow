@@ -11,7 +11,8 @@ body, html {
 /*HEADER*/
 
 #header {
-  background: url(../img/purple-gradient.png) center center no-repeat;
+  /* background: url(../img/purple-gradient.png) center center no-repeat; */
+  background: url(../img/purple-clouds.jpg) center center no-repeat;
   /*span the entire container*/
   background-size: cover;
   height: 100%;
@@ -49,7 +50,6 @@ body, html {
   color: #ccc;
 }
 
-
 #logo {
   -moz-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
   -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
@@ -58,5 +58,12 @@ body, html {
 }
 
 #logo-text {
+  font-size: 15rem;
+  font-style: italic;
+  font-family: "URW Chancery L", cursive;
+  opacity: .75;
+}
+
+#welcome-text {
   margin-top: 80px;
 }
