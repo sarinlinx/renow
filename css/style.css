@@ -52,3 +52,118 @@ body, html {
 #welcome-text {
   margin-top: 80px;
 }
+
+
+
+
+/* WHO */
+
+#who {
+  padding: 5rem 0;
+  background-color: #f6f6f6;
+}
+
+#who .btn-who {
+  background-color: #be2835;
+  color: #fff;
+  width: 50%;
+}
+
+#who .btn-who:hover {
+  background-color: transparent;
+  border: 1px solid #be2835;
+  color: #be2835;
+  /* fading transition*/
+  /* already applied in global bootstrap css, but this is what it looks like*/
+  /*transition: all .15s ease-in-out;*/
+}
+
+
+
+
+
+
+
+
+/* WORK */
+
+#work {
+  padding: 5rem 0;
+}
+
+/* These two work together to place the overlay only on the top part of the card */
+
+/* This places the overlay over the entire card */
+
+#work .work-img .img-overlay {
+  /* Place hover over top left of card */
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Set size to fill card */
+  width: 100%;
+  height: 100%;
+  /* Add image over overlay */
+  background-image: url(../img/eye.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* Hide eye image overlay */
+  opacity: 0;
+  z-index: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+/* This moves the overlay only to the top part of the card */
+
+#work .work-img {
+  position: relative;
+}
+
+#work .work-img .img-overlay:hover {
+  opacity: 1;
+  z-index: 1;
+}
+
+
+
+
+/* WHY */
+
+#why {
+  padding: 5rem 0;
+  background-color: #f6f6f6;
+}
+
+#why .fa {
+  color: #be2835;
+  padding: 15px 0;
+}
+
+/* Customers */
+
+#customers {
+  padding: 5rem 0;
+  /* Any content that spills into another section is hidden */
+  /* This is useful when you're fading up content */
+  overflow: hidden;
+}
+
+#customers .carousel-indicators li {
+  background-color: #be2835;
+}
+
+#customers .carousel-inner {
+  margin-bottom: 50px;
+}
+
+#customers .carousel-indicators {
+  margin-bottom: -50px;
+}
+
+
+/* CONTACT */
+
+#contact {
+  padding: 5rem 0;
+}
