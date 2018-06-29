@@ -59,8 +59,9 @@ body, html {
 /* WHO */
 
 #who {
+  background: url(../img/mountains.jpg) center center no-repeat;
   padding: 5rem 0;
-  background-color: #f6f6f6;
+  background-size: cover;
 }
 
 #who .btn-who {
@@ -86,15 +87,17 @@ body, html {
 
 
 /* WORK */
-
+.card-spacing {
+  margin: 10px 0;
+}
 #work {
   padding: 5rem 0;
+  background-color: #000;
+  color: #fcf3cf ;
 }
 
 /* These two work together to place the overlay only on the top part of the card */
-
 /* This places the overlay over the entire card */
-
 #work .work-img .img-overlay {
   /* Place hover over top left of card */
   position: absolute;
@@ -125,6 +128,10 @@ body, html {
   z-index: 1;
 }
 
+a.btn-style {
+  color: #fff;
+  font-size: 1.5rem;
+}
 
 
 
@@ -143,6 +150,7 @@ body, html {
 /* Customers */
 
 #customers {
+  background: linear-gradient(to right, rgba(0,255,242,1), rgba(231,231,231,1));
   padding: 5rem 0;
   /* Any content that spills into another section is hidden */
   /* This is useful when you're fading up content */
@@ -166,4 +174,5 @@ body, html {
 
 #contact {
   padding: 5rem 0;
+  background: linear-gradient(to right, rgba(248,139,255,1), rgba(254,249,231,1));
 }
