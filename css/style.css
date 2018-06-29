@@ -12,7 +12,8 @@ body, html {
 
 #header {
   /* background: url(../img/purple-gradient.png) center center no-repeat; */
-  background: url(../img/purple-clouds.jpg) center center no-repeat;
+  /* background: url(../img/purple-clouds.jpg) center center no-repeat; */
+  background: linear-gradient(to right, rgba(248,139,255,1), rgba(254,249,231,1));
   /*span the entire container*/
   background-size: cover;
   height: 100%;
@@ -30,26 +31,6 @@ body, html {
 
 /* Add transparent background to header form section */
 
-#header .header-right {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 30px;
-  border-radius: 10px;
-}
-
-#header .fas {
-  margin: 5% 0;
-}
-
-/* Change color of font awesome icon */
-
-#header a .fas {
-  color: #fff;
-}
-
-#header a .fas:hover {
-  color: #ccc;
-}
-
 #logo {
   -moz-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
   -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
@@ -57,11 +38,15 @@ body, html {
   border-radius: 30px;
 }
 
+#logo-container {
+  background-color:rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 15px;
+}
 #logo-text {
   font-size: 15rem;
   font-style: italic;
   font-family: "URW Chancery L", cursive;
-  opacity: .75;
 }
 
 #welcome-text {
