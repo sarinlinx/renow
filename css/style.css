@@ -90,10 +90,12 @@ body, html {
 .card-spacing {
   margin: 10px 0;
 }
+
 #work {
   padding: 5rem 0;
   background-color: #000;
-  color: #fcf3cf ;
+  /* color: #fcf3cf ; */
+
 }
 
 /* These two work together to place the overlay only on the top part of the card */
@@ -108,9 +110,9 @@ body, html {
   width: 100%;
   height: 100%;
   /* Add image over overlay */
-  background-image: url(../img/eye.png);
-  background-position: center center;
-  background-repeat: no-repeat;
+  /* background-image: url(../img/eye.png); */
+  /* background-position: center center; */
+  /* background-repeat: no-repeat; */
   /* Hide eye image overlay */
   opacity: 0;
   z-index: 0;
@@ -131,7 +133,45 @@ body, html {
 a.btn-style {
   color: #fff;
   font-size: 1.5rem;
+  width: 100%;
 }
+
+.overlay-text {
+  color: #fff;
+  font-size: 2rem;
+  position: relative;
+  top: 40%;
+  left: 40%;
+}
+
+.card-text-bottom {
+  color:#fff;
+}
+
+.img-overlay:hover .card-text-bottom {
+  opacity: 0;
+}
+
+#card2-text {
+  opacity: 0;
+}
+
+#card2:hover .card-text-bottom {
+  opacity: 0;
+}
+
+#card2:hover #card2-text {
+  opacity: 1;
+  color: #fff;
+  font-size: 2rem;
+  position: relative;
+  top: 40%;
+  left: 40%;
+}
+
+
+
+
 
 
 
