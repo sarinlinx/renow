@@ -146,9 +146,11 @@ a.btn-style {
 
 .card-text-bottom {
   color:#fff;
+  font-size: 2rem;
 }
 
 .img-overlay:hover .card-text-bottom {
+  transition: all 0.3s ease-in-out;
   opacity: 0;
 }
 
@@ -157,16 +159,17 @@ a.btn-style {
 }
 
 #card2:hover .card-text-bottom {
+  transition: all 0.3s ease-in-out;
   opacity: 0;
 }
 
 #card2:hover #card2-text {
   opacity: 1;
-  color: #fff;
-  font-size: 2rem;
+  color: #FFD58B;
   position: relative;
-  top: 40%;
-  left: 40%;
+  top: 35%;
+  left: 25%;
+  font: 3.5rem 'Merienda One', Helvetica, sans-serif;
 }
 
 
