@@ -94,7 +94,7 @@ body, html {
 #work {
   padding: 5rem 0;
   background-color: #000;
-  /* color: #fcf3cf ; */
+  color: #FFD58B;
 
 }
 
@@ -168,8 +168,8 @@ a.btn-style {
   color: #FFD58B;
   position: relative;
   top: 35%;
-  left: 25%;
-  font: 3.5rem 'Merienda One', Helvetica, sans-serif;
+  left: 35%;
+  font: 2.5rem 'Merienda One', Helvetica, sans-serif;
 }
 
 
@@ -217,5 +217,20 @@ a.btn-style {
 
 #contact {
   padding: 5rem 0;
+  background-color: #000;
   background: linear-gradient(to right, rgba(248,139,255,1), rgba(254,249,231,1));
+}
+
+
+
+.btn-style {
+  border: 1px solid #0083FF;
+  background-color: #0083ff;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-style:hover {
+  font-size: 1.2rem;
+  font-weight: bolder;
 }
