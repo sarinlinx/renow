@@ -65,7 +65,7 @@ body, html {
 
 #who {
   background: url(../img/mountains.jpg) center center no-repeat;
-  padding: 3rem 0;
+  padding: 5rem 0;
   background-size: cover;
 }
 
@@ -76,10 +76,15 @@ body, html {
   margin-bottom: 1rem;
 }
 
-#who .btn-who:hover {
+#who p {
+  padding: 1rem 0;
+}
+
+/* removed */
+/*#who .btn-who:hover {
   background-color: transparent;
   border: 1px solid #be2835;
-  color: #be2835;
+  color: #be2835;*/
   /* fading transition*/
   /* already applied in global bootstrap css, but this is what it looks like*/
   /*transition: all .15s ease-in-out;*/
@@ -190,12 +195,12 @@ a.btn-style {
   background-color: #00A2FF;
   color: #ffebc1;
 }
-
+/*
 #why .fa {
   color: #be2835;
   padding: 15px 0;
 }
-
+*/
 .why-text {
   margin-bottom: 1rem;
 }
@@ -206,8 +211,17 @@ a.btn-style {
   font-weight: bold;
 }
 
+#why p {
+  padding: .7rem 0;
+}
+
+
+
+
+
 
 /* Customers */
+
 
 #customers {
   background: linear-gradient(to right, rgba(0,255,242,1), rgba(231,231,231,1));
