@@ -105,7 +105,6 @@ body, html {
   padding: 5rem 0;
   background-color: #000;
   color: #FFD58B;
-
 }
 
 /* These two work together to place the overlay only on the top part of the card */
@@ -130,9 +129,8 @@ body, html {
 }
 
 /* This moves the overlay only to the top part of the card */
-
 #work .work-img {
-  position: relative;
+  /* position: relative; */
 }
 
 #work .work-img .img-overlay:hover {
@@ -140,12 +138,7 @@ body, html {
   z-index: 1;
 }
 
-a.btn-style {
-  color: #fff;
-  font-size: 1.5rem;
-  width: 100%;
-}
-
+/*
 .overlay-text {
   color: #fff;
   font-size: 2rem;
@@ -153,6 +146,7 @@ a.btn-style {
   top: 40%;
   left: 40%;
 }
+*/
 
 .card-text-bottom {
   color:#fff;
@@ -164,10 +158,38 @@ a.btn-style {
   opacity: 0;
 }
 
-#card2-text {
+/*
+#card1-text {
+  opacity: 0;
+}
+*/
+
+/* removes blue text link on top left when hover ends */
+#card1-text, #card2-text, #card3-text, #card4-text {
   opacity: 0;
 }
 
+
+#card1:hover .card-text-bottom {
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+#card1:hover #card1-text {
+  opacity: 1;
+  color: #FFD58B;
+  position: relative;
+  top: 35%;
+  left: 30%;
+  font: 2.5rem 'Merienda One', Helvetica, sans-serif;
+}
+
+
+/*
+#card2-text {
+  opacity: 0;
+}
+*/
 #card2:hover .card-text-bottom {
   transition: all 0.3s ease-in-out;
   opacity: 0;
@@ -178,11 +200,37 @@ a.btn-style {
   color: #FFD58B;
   position: relative;
   top: 35%;
+  left: 25%;
+  font: 2.5rem 'Merienda One', Helvetica, sans-serif;
+}
+
+#card3:hover .card-text-bottom {
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+#card3:hover #card3-text {
+  opacity: 1;
+  color: #FFD58B;
+  position: relative;
+  top: 35%;
   left: 35%;
   font: 2.5rem 'Merienda One', Helvetica, sans-serif;
 }
 
+#card4:hover .card-text-bottom {
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
 
+#card4:hover #card4-text {
+  opacity: 1;
+  color: #FFD58B;
+  position: relative;
+  top: 35%;
+  left: 35%;
+  font: 2.5rem 'Merienda One', Helvetica, sans-serif;
+}
 
 
 
