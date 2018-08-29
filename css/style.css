@@ -7,34 +7,34 @@ body, html {
   height: 100%;
   font-family: 'Alegreya Sans', sans-serif;
 }
-
+/*
 .navbar-dark .navbar-nav .navbar-link {
   color: #DC00FF;
-}
-
-/*
-.navbar {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  padding: 2rem;
-  text-align: center;
-  color: black;
-  font-family: sans-serif;
-  background-color: grey;
-  transition: 0.3s;
 }*/
 
+.navbar-dark .navbar-nav .nav-link {
+  color: #424242;
+}
+/*This class is added by js*/
 .scrolled {
   background-color: #424242;
   transition: 0.3s;
 }
 
-
 /* these do not work with navbar-dark, but navbar-dark is needed for scrollspy*/
+/*The nav-link-style class is added by js*/
 a.nav-item.nav-link.nav-link-style {
   color: #f57fff;
+}
+
+/*background color of toggler icon*/
+.navbar-toggler {
+  background-color: #424242;
+}
+
+/*border of navbar toggler*/
+.navbar-dark .navbar-toggler {
+  border-color: #f57fff;
 }
 
 
