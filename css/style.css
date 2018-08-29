@@ -158,12 +158,6 @@ body, html {
   opacity: 0;
 }
 
-/*
-#card1-text {
-  opacity: 0;
-}
-*/
-
 /* removes blue text link on top left when hover ends */
 #card1-text, #card2-text, #card3-text, #card4-text {
   opacity: 0;
@@ -176,6 +170,7 @@ body, html {
 }
 
 #card1:hover #card1-text {
+  display: inline;
   opacity: 1;
   color: #FFD58B;
   position: relative;
@@ -196,11 +191,12 @@ body, html {
 }
 
 #card2:hover #card2-text {
+  display: inline;
   opacity: 1;
   color: #FFD58B;
   position: relative;
   top: 35%;
-  left: 25%;
+  left: 20%;
   font: 2.5rem 'Merienda One', Helvetica, sans-serif;
 }
 
@@ -210,6 +206,7 @@ body, html {
 }
 
 #card3:hover #card3-text {
+  display: inline;
   opacity: 1;
   color: #FFD58B;
   position: relative;
@@ -224,11 +221,12 @@ body, html {
 }
 
 #card4:hover #card4-text {
+  display: inline;
   opacity: 1;
   color: #FFD58B;
   position: relative;
   top: 35%;
-  left: 35%;
+  left: 30%;
   font: 2.5rem 'Merienda One', Helvetica, sans-serif;
 }
 
