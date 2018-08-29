@@ -11,13 +11,44 @@ body, html {
 .navbar-dark .navbar-nav .navbar-link {
   color: #DC00FF;
 }
+/*
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 2rem;
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  background-color: grey;
+  transition: 0.3s;
+}*/
+
+.scrolled {
+  background-color: #424242;
+  /* color: #fff; */
+  transition: 0.3s;
+}
+
+/* these do not work with navbar-dark, but navbar-dark is needed for scrollspy
+.nav-link-style {
+  color: #000;
+}
+
+.scrolled .nav-link-style {
+  color: #f46cff;
+}*/
+
+
+
 
 /*HEADER*/
 
 #header {
   /* background: url(../img/purple-gradient.png) center center no-repeat; */
   /* background: url(../img/purple-clouds.jpg) center center no-repeat; */
-  background: linear-gradient(to right, rgba(248,139,255,1), rgba(254,249,231,1));
+  background: linear-gradient(to right, rgba(248, 139, 255, 1), rgba(254, 249, 231, 1));
   /*span the entire container*/
   background-size: cover;
   height: 100%;
@@ -40,14 +71,14 @@ body, html {
   -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
   box-shadow: 0px 0px 23px 9px #000;
   border-radius: 30px;
-
 }
 
 #logo-container {
-  background-color:rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   border-radius: 25px;
   padding: 15px;
 }
+
 #logo-text {
   font-size: 15rem;
   font-style: italic;
@@ -58,14 +89,11 @@ body, html {
   margin-top: 80px;
 }
 
-
-
-
 /* WHO */
 
 #who {
   background: url(../img/mountains.jpg) center center no-repeat;
-  padding: 5rem 0;
+  padding: 7rem 0;
   background-size: cover;
 }
 
@@ -81,22 +109,22 @@ body, html {
 }
 
 /* removed */
+
 /*#who .btn-who:hover {
   background-color: transparent;
   border: 1px solid #be2835;
   color: #be2835;*/
-  /* fading transition*/
-  /* already applied in global bootstrap css, but this is what it looks like*/
-  /*transition: all .15s ease-in-out;*/
+
+/* fading transition*/
+
+/* already applied in global bootstrap css, but this is what it looks like*/
+
+/*transition: all .15s ease-in-out;*/
+
 }
 
-
-
-
-
-
-
 /* WORK */
+
 .card-spacing {
   margin: 10px 0;
 }
@@ -108,7 +136,9 @@ body, html {
 }
 
 /* These two work together to place the overlay only on the top part of the card */
+
 /* This places the overlay over the entire card */
+
 #work .work-img .img-overlay {
   /* Place hover over top left of card */
   position: absolute;
@@ -129,6 +159,7 @@ body, html {
 }
 
 /* This moves the overlay only to the top part of the card */
+
 #work .work-img {
   /* position: relative; */
 }
@@ -149,7 +180,7 @@ body, html {
 */
 
 .card-text-bottom {
-  color:#fff;
+  color: #fff;
   font-size: 2rem;
 }
 
@@ -159,10 +190,10 @@ body, html {
 }
 
 /* removes blue text link on top left when hover ends */
+
 #card1-text, #card2-text, #card3-text, #card4-text {
   opacity: 0;
 }
-
 
 #card1:hover .card-text-bottom {
   transition: all 0.3s ease-in-out;
@@ -179,12 +210,12 @@ body, html {
   font: 2.5rem 'Merienda One', Helvetica, sans-serif;
 }
 
-
 /*
 #card2-text {
   opacity: 0;
 }
 */
+
 #card2:hover .card-text-bottom {
   transition: all 0.3s ease-in-out;
   opacity: 0;
@@ -230,10 +261,6 @@ body, html {
   font: 2.5rem 'Merienda One', Helvetica, sans-serif;
 }
 
-
-
-
-
 /* WHY */
 
 #why {
@@ -241,12 +268,14 @@ body, html {
   background-color: #00A2FF;
   color: #ffebc1;
 }
+
 /*
 #why .fa {
   color: #be2835;
   padding: 15px 0;
 }
 */
+
 .why-text {
   margin-bottom: 1rem;
 }
@@ -261,16 +290,10 @@ body, html {
   padding: .7rem 0;
 }
 
-
-
-
-
-
 /* Customers */
 
-
 #customers {
-  background: linear-gradient(to right, rgba(0,255,242,1), rgba(231,231,231,1));
+  background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(245, 245, 245, 1));
   padding: 5rem 0;
   /* Any content that spills into another section is hidden */
   /* This is useful when you're fading up content */
@@ -289,16 +312,13 @@ body, html {
   margin-bottom: -50px;
 }
 
-
 /* CONTACT */
 
 #contact {
   padding: 5rem 0;
   background-color: #000;
-  background: linear-gradient(to right, rgba(248,139,255,1), rgba(254,249,231,1));
+  background: linear-gradient(to right, rgba(248, 139, 255, 1), rgba(254, 249, 231, 1));
 }
-
-
 
 .btn-style {
   border: 1px solid #0083FF;
