@@ -11,6 +11,7 @@ body, html {
 .navbar-dark .navbar-nav .navbar-link {
   color: #DC00FF;
 }
+
 /*
 .navbar {
   position: fixed;
@@ -27,20 +28,14 @@ body, html {
 
 .scrolled {
   background-color: #424242;
-  /* color: #fff; */
   transition: 0.3s;
 }
 
-/* these do not work with navbar-dark, but navbar-dark is needed for scrollspy
-.nav-link-style {
-  color: #000;
+
+/* these do not work with navbar-dark, but navbar-dark is needed for scrollspy*/
+a.nav-item.nav-link.nav-link-style {
+  color: #f57fff;
 }
-
-.scrolled .nav-link-style {
-  color: #f46cff;
-}*/
-
-
 
 
 /*HEADER*/
