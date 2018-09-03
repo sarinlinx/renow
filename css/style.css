@@ -1,11 +1,14 @@
 /*___________________________________________________
 General Styles
 ___________________________________________________*/
-
 body, html {
   /* Fills entire browser when loaded */
   height: 100%;
-  font-family: 'Alegreya Sans', sans-serif;
+}
+
+body {
+  font-family: font-family: 'Rufina', serif;
+  font-size: 1.1rem;
 }
 /*
 .navbar-dark .navbar-nav .navbar-link {
@@ -89,14 +92,22 @@ a.nav-item.nav-link.nav-link-style {
   color: #3a3a3a;
 }
 
+
+
+
+
+
+
+
 /* WHO */
 
 #who {
   /* background: url(../img/mountains.jpg) center center no-repeat; */
-  background: linear-gradient(to top, rgba(120, 120, 120, 1), rgba(224, 224, 224, 1));
-  padding: 10rem 0;
+  /* background: linear-gradient(to top, rgba(120, 120, 120, 1), rgba(224, 224, 224, 1)); */
+  background-color: #808080;
+  padding: 15rem 0;
   background-size: cover;
-  color: #fff;
+  color: #ffdc00;
 }
 
 #who .btn-who {
@@ -124,10 +135,16 @@ a.nav-item.nav-link.nav-link-style {
 
 /*transition: all .15s ease-in-out;*/
 
+
+
+
+
+
+
 /* WHY */
 
 #why {
-  padding: 5rem 0;
+  padding: 15rem 0;
   background-color: #00A2FF;
   color: #ffebc1;
 }
@@ -142,9 +159,6 @@ a.nav-item.nav-link.nav-link-style {
   font-weight: bold;
 }
 
-#why {
-  padding: 10rem 0;
-}
 #why p {
   padding: .7rem 0;
   color: #dfdfdf;
