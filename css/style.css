@@ -18,13 +18,14 @@ body, html {
 /*This class is added by js*/
 .scrolled {
   background-color: #424242;
-  transition: 0.3s;
+  transition: 1s ease-in-out;
 }
 
 /* these do not work with navbar-dark, but navbar-dark is needed for scrollspy*/
 /*The nav-link-style class is added by js*/
 a.nav-item.nav-link.nav-link-style {
   color: #f57fff;
+  transition: all 0.6s ease-in-out;
 }
 
 /*background color of toggler icon*/
@@ -43,7 +44,9 @@ a.nav-item.nav-link.nav-link-style {
 #header {
   /* background: url(../img/purple-gradient.png) center center no-repeat; */
   /* background: url(../img/purple-clouds.jpg) center center no-repeat; */
-  background: linear-gradient(to top right, rgba(214, 61, 255, 1), rgba(255, 232, 169, 1));
+  /* too pink */
+  /* background: linear-gradient(to top right, rgba(214, 61, 255, 1), rgba(255, 232, 169, 1)); */
+  background: linear-gradient(to top right, rgba(147, 0, 255, 1), rgba(255, 232, 169, 1));
   /*span the entire container*/
   background-size: cover;
   height: 100%;
@@ -68,6 +71,7 @@ a.nav-item.nav-link.nav-link-style {
   border-radius: 30px;
 }
 
+
 #logo-container {
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 25px;
@@ -88,14 +92,17 @@ a.nav-item.nav-link.nav-link-style {
 /* WHO */
 
 #who {
-  background: url(../img/mountains.jpg) center center no-repeat;
+  /* background: url(../img/mountains.jpg) center center no-repeat; */
+  background: linear-gradient(to top, rgba(120, 120, 120, 1), rgba(224, 224, 224, 1));
   padding: 10rem 0;
   background-size: cover;
+  color: #fff;
 }
 
 #who .btn-who {
   background-color: #be2835;
-  color: #fff;
+  /* color: #fff; */
+
   width: 50%;
   margin-bottom: 1rem;
 }
@@ -290,7 +297,7 @@ a.nav-item.nav-link.nav-link-style {
 #customers {
   background-color: #f8f8f8;
   /* background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(245, 245, 245, 1)); */
-  padding: 10rem 0;
+  padding: 15rem 0;
   /* Any content that spills into another section is hidden */
   /* This is useful when you're fading up content */
   overflow: hidden;
@@ -312,9 +319,10 @@ a.nav-item.nav-link.nav-link-style {
 /* CONTACT */
 
 #contact {
-  padding: 10rem 0;
+  padding: 15rem 0;
   background-color: #000;
-  background: linear-gradient(to right, rgba(248, 139, 255, 1), rgba(254, 249, 231, 1));
+  background: linear-gradient(to top right, rgba(214, 61, 255, 1), rgba(255, 232, 169, 1));
+  /* background: linear-gradient(to right, rgba(248, 139, 255, 1), rgba(254, 249, 231, 1)); */
 }
 
 .btn-style {
