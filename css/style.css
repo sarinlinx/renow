@@ -12,38 +12,31 @@ body {
   font-size: 1.1rem;
 }
 
-/*
-.navbar-dark .navbar-nav .navbar-link {
-  color: #DC00FF;
-}*/
 
 .navbar-dark .navbar-nav .nav-link {
   color: #424242;/*dark gray*/
   transition: all 1s ease-in-out;
 }
 
+.fixed-top {
+  background-color: none;
+  transition: all 1s ease-in-out;
+}
 /*This class is added by js*/
 
 .scrolled {
-  background-color: #424242;
+  background-color: #424242;/*dark gray*/
   transition: 1s ease-in-out;
 }
 
 /* these do not work with navbar-dark, but navbar-dark is needed for scrollspy*/
 /*The nav-link-style class is added by js*/
 a.nav-item.nav-link.nav-link-style {
-  color: #f57fff;//purple
+  color: #f57fff;/*purple*/
   transition: all 0.6s ease-in-out;
 }
 
 
-
-
-/* Reset gently after scroll back to top */
-.nav-link-style {
-  color: yellow;
-  transition: all 1s ease-in-out;
-}
 
 
 
