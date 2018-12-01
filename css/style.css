@@ -413,7 +413,8 @@ a.nav-item.nav-link.nav-link-style {
 /* My Form*/
 
 #thankyou_message {
-  display: none;
+  /* display: none; */
+  opacity: 0;
 }
 
 
