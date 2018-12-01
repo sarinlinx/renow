@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Contact Form Test</title>
+
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Rufina" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="my-form-js-test.js"></script>
+</head>
+
+<body>
+
+
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container text-center wow fadeIn" data-wow-delay="0.5s">
+            <div class="row">
+                <div class="col">
+                    <h1>Contact us</h1>
+                    <hr width="30%">
+                    <p>Please fill out form below and we'll get back to you shortly.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- mx-auto centers fixed-width block level content-->
+                <!-- It centers the column with 8 rows below -->
+                <div class="col-8 mx-auto">
+                 <form id="gform" action="https://script.google.com/macros/s/AKfycbwMO6118FKj5Bfj-nhATyL6W8rXUyTsTaZtdcDv-d1iwBIJqxM/exec" method="post">
+
+                        <fieldset class="form-group">
+                            <input id="cf-name" type="text" class="form-control form-control-sm form-style" id="name" placeholder="name">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <input id="cf-email" type="email" class="form-control form-control-sm form-style" id="email" placeholder="email">
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <textarea id="cf-textarea" class="form-control form-control-sm form-style" id="message" placeholder="message" rows="3"></textarea>
+                        </fieldset>
+
+                        <input type="hidden" id="cf-check" name="spamcheck">
+                        <input type="hidden" id="cf-submit-val" name="form-submit-val">
+
+                        <button id="cf-submit-btn" type="submit" class="btn btn-style btn-block">Submit</button>
+
+                    </form>
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <!-- Close Contact section -->
+
+
+    <script src="js/jquery.js"></script>
+    <!-- bundle.js contains popper, but not jquery -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

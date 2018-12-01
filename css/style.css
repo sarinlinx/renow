@@ -12,35 +12,36 @@ body {
   font-size: 1.1rem;
 }
 
-
 .navbar-dark .navbar-nav .nav-link {
-  color: #424242;/*dark gray*/
+  color: #424242;
+  /*dark gray*/
   transition: all .8s ease-in-out;
 }
 
 /*original color of nav bar fixed section*/
+
 .fixed-top {
   background-color: none;
   transition: all 0.8s ease-in-out;
 }
+
 /*This class is added by js*/
 
 .scrolled {
-  background-color: #424242;/*dark gray*/
+  background-color: #424242;
+  /*dark gray*/
   transition: 0.8s ease-in-out;
 }
 
 /* these do not work with navbar-dark, but navbar-dark is needed for scrollspy*/
+
 /*The nav-link-style class is added by js*/
+
 a.nav-item.nav-link.nav-link-style {
-  color: #f57fff;/*purple*/
+  color: #f57fff;
+  /*purple*/
   transition: all 0.8s ease-in-out;
 }
-
-
-
-
-
 
 /*background color of toggler icon*/
 
@@ -53,9 +54,6 @@ a.nav-item.nav-link.nav-link-style {
 .navbar-dark .navbar-toggler {
   border-color: #f57fff;
 }
-
-
-
 
 /*HEADER*/
 
@@ -100,32 +98,47 @@ a.nav-item.nav-link.nav-link-style {
 }
 
 /* Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 600px) {
-    .example {background: red;}
+  .example {
+    background: red;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
+
 @media only screen and (min-width: 600px) {
-    #logo-text {font-size: 1rem;}
+  #logo-text {
+    font-size: 1rem;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
+
 @media only screen and (min-width: 768px) {
-    #logo-text {font-size: 3rem;}
+  #logo-text {
+    font-size: 3rem;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (min-width: 992px) {
-    #logo-text {font-size: 5rem;}
+  #logo-text {
+    font-size: 5rem;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+
 @media only screen and (min-width: 1200px) {
-    #logo-text {font-size: 13rem;}
+  #logo-text {
+    font-size: 13rem;
+  }
 }
 
-
 }
+
 #logo-text1 {
   font-style: italic;
   font-family: 'Cardo', serif;
@@ -135,7 +148,6 @@ a.nav-item.nav-link.nav-link-style {
   font-style: italic;
   font-family: 'Cardo', serif;
 }
-
 
 #logo-text3 {
   font-style: italic;
@@ -156,7 +168,6 @@ a.nav-item.nav-link.nav-link-style {
   font-size: 15rem;
 }
 
-
 #welcome-text {
   margin-top: 80px;
   color: #3a3a3a;
@@ -165,7 +176,6 @@ a.nav-item.nav-link.nav-link-style {
 /* WHO */
 
 #who {
-
   /* background: linear-gradient(to top, rgba(120, 120, 120, 1), rgba(224, 224, 224, 1)); */
   color: #ffdc00;
   text-align: center;
@@ -179,7 +189,7 @@ a.nav-item.nav-link.nav-link-style {
 }
 
 .dark-overlay {
-/* position: relative; */
+  /* position: relative; */
   /* position: absolute; */
   /* top: 0; */
   /* left: 0; */
@@ -399,3 +409,35 @@ a.nav-item.nav-link.nav-link-style {
   font-size: 1.2rem;
   font-weight: bolder;
 }
+
+/* My Form*/
+
+#thankyou_message {
+  display: none;
+}
+
+
+#textbox {
+  margin-bottom: 5px;
+}
+
+/* Removes red auto border on required field in Firefox */
+
+input, textarea {
+  border: solid 1px blue;
+  box-shadow: none;
+}
+
+/* input:-moz-placeholder, */
+
+/* input:focus { */
+
+/* box-shadow:none !important; */
+
+/* } */
+
+/* input:invalid { */
+
+/* box-shadow:0 0 2px 1px purple; */
+
+/* } */
