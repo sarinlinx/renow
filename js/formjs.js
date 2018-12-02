@@ -54,11 +54,12 @@ function handleFormSubmit(event) { // handles article form submit without any jq
     // xhr.withCredentials = true;
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.onreadystatechange = function() {
-      //Face out form
-      // document.getElementById('gform').style.display = 'none'; // hide form
-      document.getElementById('gform').style.opacity = 0;
-      document.getElementById('gform').style.WebkitTransition = 'opacity 1s';
-      document.getElementById('gform').style.MozTransition = 'opacity 1s';
+
+      //Face in Thank you message
+      // document.getElementById('thankyou_message').style.display = 'block';
+      document.getElementById('thankyou_message').style.opacity = 1;
+      document.getElementById('thankyou_message').style.WebkitTransition = 'opacity 3s linear';
+      document.getElementById('thankyou_message').style.MozTransition = 'opacity 3s linear';
 
       //Fade out 'Contact us' text
       // document.getElementById('contact-us-text').style.display = 'none';
@@ -66,23 +67,24 @@ function handleFormSubmit(event) { // handles article form submit without any jq
       document.getElementById('contact-us-text').style.WebkitTransition = 'opacity 1s';
       document.getElementById('contact-us-text').style.MozTransition = 'opacity 1s';
 
-      //Face out form text message
+      //Form text message
       // document.getElementById('form-text-message').style.display = 'none';
       document.getElementById('form-text-message').style.opacity = 0;
       document.getElementById('form-text-message').style.WebkitTransition = 'opacity 1s';
       document.getElementById('form-text-message').style.MozTransition = 'opacity 1s';
 
-      //Face out Submit Button
-      // document.getElementById('SubmitBtn').style.display = 'none';
+      //Form body
+      // document.getElementById('gform').style.display = 'none'; // hide form
+      document.getElementById('gform').style.opacity = 0;
+      document.getElementById('gform').style.WebkitTransition = 'opacity 1s';
+      document.getElementById('gform').style.MozTransition = 'opacity 1s';
+
+
+      //Submit Button
       document.getElementById('SubmitBtn').style.opacity = 0;
       document.getElementById('SubmitBtn').style.WebkitTransition = 'opacity 1s';
       document.getElementById('SubmitBtn').style.MozTransition = 'opacity 1s';
-
-      //Face in Thank you message
-      // document.getElementById('thankyou_message').style.display = 'block';
-      document.getElementById('thankyou_message').style.opacity = 1;
-      document.getElementById('thankyou_message').style.WebkitTransition = 'opacity 5s';
-      document.getElementById('thankyou_message').style.MozTransition = 'opacity 5s';
+      // document.getElementById('SubmitBtn').style.display = 'none';
 
       return;
     };
