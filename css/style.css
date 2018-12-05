@@ -9,9 +9,16 @@ body, html {
 
 body {
   font-family: font-family: 'Rufina', serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
+.title-text {
+  font-size: 3rem;
+}
+
+/*___________________________________________________
+Navbar
+___________________________________________________*/
 .navbar-dark .navbar-nav .nav-link {
   color: #424242;
   /*dark gray*/
@@ -55,7 +62,9 @@ a.nav-item.nav-link.nav-link-style {
   border-color: #f57fff;
 }
 
-/*HEADER*/
+/*___________________________________________________
+HEADER
+_____________________________________________________*/
 
 #header {
   /* background: url(../img/purple-gradient.png) center center no-repeat; */
@@ -173,11 +182,13 @@ a.nav-item.nav-link.nav-link-style {
   color: #3a3a3a;
 }
 
-/* WHO */
+/*___________________________________________________
+WHO
+_____________________________________________________*/
 
 #who {
   /* background: linear-gradient(to top, rgba(120, 120, 120, 1), rgba(224, 224, 224, 1)); */
-  color: #ffdc00;
+  color: #fff;
   text-align: center;
   position: relative;
   /* min-height: 200px; */
@@ -186,6 +197,16 @@ a.nav-item.nav-link.nav-link-style {
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+.who-title-text {
+  color: #fff;
+  font-weight: bold;
+}
+
+#hr-who {
+  background-color: #00c5ff;
+  margin-bottom: 2rem;
 }
 
 .dark-overlay {
@@ -198,13 +219,63 @@ a.nav-item.nav-link.nav-link-style {
   background: rgba(0, 0, 0, 0.5);
 }
 
+/*___________________________________________________
+Customers
+_____________________________________________________*/
+
+#customers {
+  background-color: #f8f8f8;
+  /* background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(245, 245, 245, 1)); */
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  /* Any content that spills into another section is hidden */
+  /* This is useful when you're fading up content */
+  overflow: hidden;
+  color: #00c5ff;
+}
+
+.customers-title-text {
+  font-weight: bold;
+}
+
+#customer-sentence {
+  font-weight: bold;
+}
+.carousel-item {
+  padding: 1.2rem 0;
+}
+#hr-customers {
+  background-color: #d0d0d0;
+  margin-bottom: 2rem;
+}
+
+/* This stops the indicators from bouncing when
+quote is more than one line*/
+div.carousel-item.active {
+  height: 200px;
+}
+
+#customers .carousel-indicators li {
+  background-color: #c100ff;
+}
+
+#customers .carousel-inner {
+  margin-bottom: 50px;
+}
+
+#customers .carousel-indicators {
+  margin-bottom: -50px;
+}
+
 /* fading transition*/
 
 /* already applied in global bootstrap css, but this is what it looks like*/
 
 /*transition: all .15s ease-in-out;*/
 
-/* WHY */
+/*___________________________________________________
+WHY
+_____________________________________________________*/
 
 #why {
   padding: 15rem 0;
@@ -216,8 +287,8 @@ a.nav-item.nav-link.nav-link-style {
   margin-bottom: 1rem;
 }
 
-.title-text {
-  margin-bottom: 2rem;
+.why-title-text {
+  margin-bottom: 2.2rem;
   color: #fff;
   font-weight: bold;
 }
@@ -227,7 +298,9 @@ a.nav-item.nav-link.nav-link-style {
   color: #dfdfdf;
 }
 
-/* WORK */
+/*___________________________________________________
+WORK
+_____________________________________________________*/
 
 .card-spacing {
   margin: 10px 0;
@@ -365,30 +438,6 @@ a.nav-item.nav-link.nav-link-style {
   font: 2.5rem 'Merienda One', Helvetica, sans-serif;
 }
 
-/* Customers */
-
-#customers {
-  background-color: #f8f8f8;
-  /* background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(245, 245, 245, 1)); */
-  padding: 15rem 0;
-  /* Any content that spills into another section is hidden */
-  /* This is useful when you're fading up content */
-  overflow: hidden;
-  color: #00c5ff;
-}
-
-#customers .carousel-indicators li {
-  background-color: #c100ff;
-}
-
-#customers .carousel-inner {
-  margin-bottom: 50px;
-}
-
-#customers .carousel-indicators {
-  margin-bottom: -50px;
-}
-
 /* CONTACT */
 
 #contact {
@@ -416,7 +465,6 @@ a.nav-item.nav-link.nav-link-style {
   /* display: none; */
   opacity: 0;
 }
-
 
 #textbox {
   margin-bottom: 5px;
