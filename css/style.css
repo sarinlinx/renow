@@ -219,15 +219,90 @@ _____________________________________________________*/
   background: rgba(0, 0, 0, 0.5);
 }
 
+/*_____________________________________________________
+WHITE
+_______________________________________________________*/
+
+#white {
+  background: linear-gradient(to bottom, #fff 60%, #75cbe7 100%);
+  color: #000;
+  /* text-align: center; */
+  /* position: relative; */
+  /* min-height: 200px; */
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+  /* background-repeat: no-repeat; */
+  padding: 20rem 0;
+}
+
+.white-title-text {
+  color: #fff;
+  font-weight: bold;
+}
+
+#hr-white {
+  background-color: #00c5ff;
+  margin-bottom: 2rem;
+}
+
+/*___________________________________________________
+WHY
+_____________________________________________________*/
+
+#why {
+  padding: 20rem 0;
+  /* background-color: #00A2FF; */
+  background: linear-gradient(to bottom, #75cbe7 60%, #138fc2 100%);
+  /* color: #ffebc1; */
+  color: #ffe5ad;
+}
+
+.why-text {
+  margin-bottom: 1rem;
+}
+
+.why-title-text {
+  color: #646464;
+  font-weight: bold;
+}
+
+#hr-why {
+  background-color: #fff;
+  /* margin-bottom: 2rem; */
+}
+
+#why-sentence {
+  margin-bottom: 2rem;
+  color: #8f8f8f;
+}
+#why p {
+  padding: .7rem 0;
+  color: #dfdfdf;
+}
+
+.services-text {
+  color: #ffbd75;
+}
+
+/* Only on devices 775px and up should height be Set
+This is so text under will align horizontally */
+
+@media only screen and (min-width: 775px) {
+  .why-sub-section {
+    height: 75px;
+  }
+}
+
+
 /*___________________________________________________
 Customers
 _____________________________________________________*/
 
 #customers {
-  background-color: #f8f8f8;
-  /* background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(245, 245, 245, 1)); */
-  padding-top: 8rem;
-  padding-bottom: 5rem;
+  /* background-color: #f8f8f8; */
+  background: linear-gradient(to bottom, #138fc2 0%, #000 100%);
+  padding: 20rem 0;
   /* Any content that spills into another section is hidden */
   /* This is useful when you're fading up content */
   overflow: hidden;
@@ -236,12 +311,12 @@ _____________________________________________________*/
 
 .customers-title-text {
   font-weight: bold;
-  color: #5a5a5a;
+  color: #fff;
 }
 
 #customer-sentence {
   font-weight: bold;
-  color: #5a5a5a;
+  color: #dfdfdf;
 }
 .carousel-item {
   padding: 1.2rem 0;
@@ -250,6 +325,7 @@ _____________________________________________________*/
   background-color: #d0d0d0;
   margin-bottom: 2rem;
 }
+
 
 /* This stops the indicators from bouncing when
 quote is more than one line*/
@@ -277,50 +353,6 @@ div.carousel-item.active {
 
 /*transition: all .15s ease-in-out;*/
 
-/*___________________________________________________
-WHY
-_____________________________________________________*/
-
-#why {
-  padding: 12rem 0;
-  /* background-color: #00A2FF; */
-  background: linear-gradient(to bottom, #75cbe7 0%, #138fc2 100%);
-  color: #ffebc1;
-}
-
-.why-text {
-  margin-bottom: 1rem;
-}
-
-.why-title-text {
-  /* color: #fff7e6; */
-
-color: #fff;
-  font-weight: bold;
-}
-
-#hr-why {
-  background-color: #fff;
-  /* margin-bottom: 2rem; */
-}
-
-#why-sentence {
-  margin-bottom: 2rem;
-  color: #ededed;
-}
-#why p {
-  padding: .7rem 0;
-  color: #dfdfdf;
-}
-
-/* Only on devices 775px and up should height be Set
-This is so text under will align horizontally */
-
-@media only screen and (min-width: 775px) {
-  .why-sub-section {
-    height: 75px;
-  }
-}
 
 
 /*___________________________________________________
@@ -465,11 +497,46 @@ _____________________________________________________*/
 
 /* CONTACT */
 
+
+/* #contact { */
+  /* padding: 15rem 0; */
+  /* background-color: #000; */
+  /* background: linear-gradient(to top right, rgba(214, 61, 255, 1), rgba(255, 232, 169, 1)); */
+  /* background: linear-gradient(to bottom, #000 0%, #fff 70%); */
+/* } */
+
 #contact {
-  padding: 15rem 0;
-  background-color: #000;
-  background: linear-gradient(to top right, rgba(214, 61, 255, 1), rgba(255, 232, 169, 1));
-  /* background: linear-gradient(to right, rgba(248, 139, 255, 1), rgba(254, 249, 231, 1)); */
+  /* background: linear-gradient(to top, rgba(120, 120, 120, 1), rgba(224, 224, 224, 1)); */
+  color: #fff;
+  text-align: center;
+  /* position: relative; */
+  /* min-height: 200px; */
+  background: url('../img/glow-clouds.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* padding-bottom: 20rem; */
+}
+
+.dark-overlay {
+  /* position: relative; */
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  padding-bottom: 20rem;
+}
+
+.form-control::placeholder {
+  color:#fff;
+}
+
+.form-control:focus {
+    border-color: #fff;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, .075), 0 0 8px rgba(255, 255, 255, .6);
 }
 
 .btn-style {
@@ -485,14 +552,42 @@ _____________________________________________________*/
 }
 
 /* My Form*/
+#contact-us-text {
+  /* color: #ccbcff; */
+  font-size: 3.5rem;
+}
+
+#form-text-message {
+  /* color: #a9d9e3; */
+}
 
 #thankyou_message {
   /* display: none; */
   opacity: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  -moz-border-radius: 15px;
+  -webkit-borde-radius: 15px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+#namebox {
+  /* background-color: transparent; */
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#emailbox {
+  color: #fff;
+  /* background-color: transparent; */
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 #textbox {
+  color: #fff;
   margin-bottom: 5px;
+ /* background-color: transparent; */
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* Removes red auto border on required field in Firefox */
