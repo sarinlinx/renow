@@ -71,7 +71,9 @@ _____________________________________________________*/
   /* background: url(../img/purple-clouds.jpg) center center no-repeat; */
   /* too pink */
   /* background: linear-gradient(to top right, rgba(214, 61, 255, 1), rgba(255, 232, 169, 1)); */
-  background: linear-gradient(to top right, rgba(147, 0, 255, 1), rgba(255, 232, 169, 1));
+  /* purple
+  background: linear-gradient(to top right, rgba(147, 0, 255, 1), rgba(255, 232, 169, 1));*/
+  background: linear-gradient(to bottom, rgba(234,234,234, 1), rgba(255, 232, 169, 1));
   /*span the entire container*/
   background-size: cover;
   height: 100%;
@@ -224,7 +226,10 @@ WHITE
 _______________________________________________________*/
 
 #white {
-  background: linear-gradient(to bottom, #fff 60%, #75cbe7 100%);
+  /* White to blue JAMIE LIKES THIS BLUE
+  background: linear-gradient(to bottom, #fff 60%, #75cbe7 100%); */
+  /* background: linear-gradient(to bottom, #ffe8a9 100%, #75cbe7 100%); */
+  background: linear-gradient(to bottom, rgba(255,232,169, 1), rgba(117,203,231, 1));
   color: #000;
   /* text-align: center; */
   /* position: relative; */
