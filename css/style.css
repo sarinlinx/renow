@@ -12,16 +12,13 @@ body {
   font-size: 1.2rem;
 }
 
-.title-text {
-  font-size: 3rem;
-}
-
 /*___________________________________________________
 Navbar
 ___________________________________________________*/
+
 .navbar-dark .navbar-nav .nav-link {
-  color: #424242;
   /*dark gray*/
+  color: #424242;
   transition: all .8s ease-in-out;
 }
 
@@ -35,8 +32,8 @@ ___________________________________________________*/
 /*This class is added by js*/
 
 .scrolled {
-  background-color: #424242;
   /*dark gray*/
+  background-color: #424242;
   transition: 0.8s ease-in-out;
 }
 
@@ -45,8 +42,8 @@ ___________________________________________________*/
 /*The nav-link-style class is added by js*/
 
 a.nav-item.nav-link.nav-link-style {
-  color: #f57fff;
-  /*purple*/
+  /* off white */
+  color: #ffe8a9;
   transition: all 0.8s ease-in-out;
 }
 
@@ -59,53 +56,31 @@ a.nav-item.nav-link.nav-link-style {
 /*border of navbar toggler*/
 
 .navbar-dark .navbar-toggler {
-  border-color: #f57fff;
+  /* off white */
+  border-color: #ffe8a9;
 }
 
+#arrow {
+  color: #00e8ff;
+}
 /*___________________________________________________
 HEADER
 _____________________________________________________*/
-
 #header {
-  /* background: url(../img/purple-gradient.png) center center no-repeat; */
-  /* background: url(../img/purple-clouds.jpg) center center no-repeat; */
-  /* too pink */
-  /* background: linear-gradient(to top right, rgba(214, 61, 255, 1), rgba(255, 232, 169, 1)); */
-  /* purple
-  background: linear-gradient(to top right, rgba(147, 0, 255, 1), rgba(255, 232, 169, 1));*/
-  background: linear-gradient(to bottom, rgba(234,234,234, 1), rgba(255, 232, 169, 1));
-  /*span the entire container*/
+  background: linear-gradient(to bottom, rgba(255, 232, 169, 1),rgba(234, 234, 234, 1));
   background-size: cover;
   height: 100%;
-  /* Enable a flex container for this element */
   display: flex;
-  /* Center this section vertifcally and horizontally */
   align-items: center;
-}
-
-#header img {
-  /* padding-bottom: 80px; */
-  /* Adjust size of image */
-  width: 60%;
-}
-
-/* Add transparent background to header form section */
-
-#logo {
-  -moz-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
-  -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 1);
-  box-shadow: 0px 0px 23px 9px #000;
-  border-radius: 30px;
-}
-
-#logo-container {
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 25px;
-  padding: 15px;
 }
 
 #logo-text {
   font-size: 15rem;
+}
+
+#welcome-text {
+  margin-top: 80px;
+  color: #3a3a3a;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -148,105 +123,35 @@ _____________________________________________________*/
   }
 }
 
-}
-
-#logo-text1 {
-  font-style: italic;
-  font-family: 'Cardo', serif;
-}
-
-#logo-text2 {
-  font-style: italic;
-  font-family: 'Cardo', serif;
-}
-
-#logo-text3 {
-  font-style: italic;
-  font-family: 'Cardo', serif;
-}
-
-#logo-text4 {
-  font-style: italic;
-  font-family: 'Cardo', serif;
-}
-
-#logo-text5 {
-  font-style: italic;
-  font-family: 'Cardo', serif;
-}
-
-#logo-text-size {
-  font-size: 15rem;
-}
-
-#welcome-text {
-  margin-top: 80px;
-  color: #3a3a3a;
-}
-
-/*___________________________________________________
-WHO
-_____________________________________________________*/
-
-#who {
-  /* background: linear-gradient(to top, rgba(120, 120, 120, 1), rgba(224, 224, 224, 1)); */
-  color: #fff;
+/*_____________________________________________________
+All sections
+_______________________________________________________*/
+.title-text {
+  font-size: 3rem;
   text-align: center;
-  position: relative;
-  /* min-height: 200px; */
-  background: url('../img/clouds.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
 }
 
-.who-title-text {
-  color: #fff;
-  font-weight: bold;
+.row-spacing {
+  padding: 1.5rem 0;
 }
 
-#hr-who {
-  background-color: #00c5ff;
-  margin-bottom: 2rem;
-}
-
-.dark-overlay {
-  /* position: relative; */
-  /* position: absolute; */
-  /* top: 0; */
-  /* left: 0; */
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-}
 
 /*_____________________________________________________
-WHITE
+About
 _______________________________________________________*/
 
-#white {
-  /* White to blue JAMIE LIKES THIS BLUE
-  background: linear-gradient(to bottom, #fff 60%, #75cbe7 100%); */
-  /* background: linear-gradient(to bottom, #ffe8a9 100%, #75cbe7 100%); */
-  background: linear-gradient(to bottom, rgba(255,232,169, 1), rgba(117,203,231, 1));
+#about {
+  background: linear-gradient(to bottom, rgba(234, 234, 234, 1), rgba(117, 203, 231, 1));
   color: #000;
-  /* text-align: center; */
-  /* position: relative; */
-  /* min-height: 200px; */
-  /* background-size: cover; */
-  /* background-position: center; */
-  /* background-attachment: fixed; */
-  /* background-repeat: no-repeat; */
-  padding: 20rem 0;
+  padding: 15rem 0;
 }
 
-.white-title-text {
-  color: #fff;
+.about-title-text {
+  color: #3c3c3c;
   font-weight: bold;
 }
 
-#hr-white {
+#hr-about {
   background-color: #00c5ff;
   margin-bottom: 2rem;
 }
@@ -256,7 +161,7 @@ WHY
 _____________________________________________________*/
 
 #why {
-  padding: 20rem 0;
+  padding: 15rem 0;
   /* background-color: #00A2FF; */
   background: linear-gradient(to bottom, #75cbe7 60%, #138fc2 100%);
   /* color: #ffebc1; */
@@ -281,9 +186,10 @@ _____________________________________________________*/
   margin-bottom: 2rem;
   color: #8f8f8f;
 }
+
 #why p {
   padding: .7rem 0;
-  color: #dfdfdf;
+  color: #646464;
 }
 
 .services-text {
@@ -298,7 +204,6 @@ This is so text under will align horizontally */
     height: 75px;
   }
 }
-
 
 /*___________________________________________________
 Customers
@@ -323,17 +228,19 @@ _____________________________________________________*/
   font-weight: bold;
   color: #dfdfdf;
 }
+
 .carousel-item {
   padding: 1.2rem 0;
 }
+
 #hr-customers {
   background-color: #d0d0d0;
   margin-bottom: 2rem;
 }
 
-
 /* This stops the indicators from bouncing when
 quote is more than one line*/
+
 div.carousel-item.active {
   height: 200px;
 }
@@ -357,8 +264,6 @@ div.carousel-item.active {
 /* already applied in global bootstrap css, but this is what it looks like*/
 
 /*transition: all .15s ease-in-out;*/
-
-
 
 /*___________________________________________________
 WORK
@@ -387,11 +292,6 @@ _____________________________________________________*/
   /* Set size to fill card */
   width: 100%;
   height: 100%;
-  /* Add image over overlay */
-  /* background-image: url(../img/eye.png); */
-  /* background-position: center center; */
-  /* background-repeat: no-repeat; */
-  /* Hide eye image overlay */
   opacity: 0;
   z-index: 0;
   transition: all 0.3s ease-in-out;
@@ -466,7 +366,7 @@ _____________________________________________________*/
   color: #FFD58B;
   position: relative;
   top: 35%;
-  left: 20%;
+  left: 35%;
   font: 2.5rem 'Merienda One', Helvetica, sans-serif;
 }
 
@@ -496,18 +396,22 @@ _____________________________________________________*/
   color: #FFD58B;
   position: relative;
   top: 35%;
-  left: 30%;
+  left: 35%;
   font: 2.5rem 'Merienda One', Helvetica, sans-serif;
 }
 
 /* CONTACT */
 
-
 /* #contact { */
-  /* padding: 15rem 0; */
-  /* background-color: #000; */
-  /* background: linear-gradient(to top right, rgba(214, 61, 255, 1), rgba(255, 232, 169, 1)); */
-  /* background: linear-gradient(to bottom, #000 0%, #fff 70%); */
+
+/* padding: 15rem 0; */
+
+/* background-color: #000; */
+
+/* background: linear-gradient(to top right, rgba(214, 61, 255, 1), rgba(255, 232, 169, 1)); */
+
+/* background: linear-gradient(to bottom, #000 0%, #fff 70%); */
+
 /* } */
 
 #contact {
@@ -536,12 +440,12 @@ _____________________________________________________*/
 }
 
 .form-control::placeholder {
-  color:#fff;
+  color: #fff;
 }
 
 .form-control:focus {
-    border-color: #fff;
-    box-shadow: inset 0 1px 1px rgba(255, 255, 255, .075), 0 0 8px rgba(255, 255, 255, .6);
+  border-color: #fff;
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, .075), 0 0 8px rgba(255, 255, 255, .6);
 }
 
 .btn-style {
@@ -557,6 +461,7 @@ _____________________________________________________*/
 }
 
 /* My Form*/
+
 #contact-us-text {
   /* color: #ccbcff; */
   font-size: 3.5rem;
@@ -591,7 +496,7 @@ _____________________________________________________*/
 #textbox {
   color: #fff;
   margin-bottom: 5px;
- /* background-color: transparent; */
+  /* background-color: transparent; */
   background-color: rgba(0, 0, 0, 0.3);
 }
 
