@@ -1,76 +1,22 @@
-/*______________________________
-Positioning
-_______________________________*/
-
-section {
-  /* background-color: #eeeeee; */
-  /* color: #232323; */
-  /* position: relative; */
-  /* background-position: 50% 50%; */
-  /* background-repeat: no-repeat; */
-  background-size: cover;
-}
-
-.align-center {
-  text-align: center;
-}
-
-.mbr-fullscreen {
-  display: flex;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  align-items: center;
-  -webkit-align-items: center;
-  min-height: 100vh;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.mbr-overlay {
+body {
   background-color: #000;
-  bottom: 0;
-  left: 0;
-  opacity: .5;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 0;
-}
-
-/*______________________________
-Text
-_______________________________*/
-
-.mbr-white {
-  color: #ffffff;
-}
-
-.mbr-bold {
-  font-weight: 700;
-}
-
-.mbr-section-title {
-  font-style: normal;
-  line-height: 1.2;
-}
-
-.mbr-text {
-  font-style: normal;
+  color: #999;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   line-height: 1.6;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga", "kern";
+  text-rendering: optimizelegibility;
 }
 
-.display-1 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 4.25rem;
-}
-
-.display-5 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 1.5rem;
-}
-
-.cid-qv1funTNmy {
-  background-image: url("coming-soon-bg.jpg");
+.dateTime {
+  color: #00ceff;
+  background: rgba(255, 255, 255, 0.25);
+  border: solid 1px transparent;
+  border-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  font-size: 2rem;
 }
