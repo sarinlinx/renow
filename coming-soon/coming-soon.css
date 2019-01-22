@@ -43,39 +43,30 @@ section {
 Text
 _______________________________*/
 
-.mbr-white {
-  color: #ffffff;
-}
-
-.mbr-bold {
-  font-weight: 700;
-}
-
-.mbr-section-title {
-  font-style: normal;
-  line-height: 1.2;
-}
-
-.mbr-text {
-  font-style: normal;
-  line-height: 1.6;
-}
-
 .display-1 {
-font-family: 'Charm', cursive;
+  font-family: 'Charm', cursive;
   /* font-style: italic; */
   font-size: 9.25rem;
   background: linear-gradient(to right, #fcffc5 0%, #00c5c7 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.display-3 {
+  font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  background: linear-gradient(to right, #feffc1 0%, #606cff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .display-5 {
-font-family: 'Merriweather', serif;
+  font-family: 'Charm', cursive;
+  /* font-family: 'Merriweather', serif; */
   font-size: 2rem;
   background: linear-gradient(to right, #00fcff 0%, #00c5c7 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .header {
@@ -89,9 +80,17 @@ font-family: 'Merriweather', serif;
   border-color: rgba(255, 255, 255, 0.3);
   padding: 20px;
   font-size: 2rem;
+  background: linear-gradient(to right, #00fcff 0%, #00c5c7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
 }
 
 .dateContainer {
   background-color: rgba(0, 0, 0, 0.25);
   padding: 25px;
+}
+
+.spacing {
+  margin-top: 3rem;
 }

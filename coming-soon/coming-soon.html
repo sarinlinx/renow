@@ -11,48 +11,44 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Free HTML Bootstrap 4 Header Template</title>
+    <title>Renow</title>
+    <link rel="stylesheet" href="animate.min.css" />
     <link rel="stylesheet" href="bootstrap.css">
-    <!-- <link rel="stylesheet" href="https://mobirise.com/bootstrap-4-theme/assets/theme/css/style.css"> -->
     <link rel="stylesheet" href="coming-soon.css">
-    <!-- <link rel="stylesheet" href="https://mobirise.com/bootstrap-4-theme/assets/mobirise/css/mbr-additional.css" type="text/css"> -->
-    <!-- <link rel="stylesheet" href="../../../renow/coming-soon/asdf2.css"> -->
+
 
 
 </head>
 
 <body>
 
-
     <section class="header fullscreen">
 
         <div class="overlay">
         </div>
 
-        <div class="container align-center">
-
+        <div class="container align-center wow fadeIn" data-wow-delay="1s" data-wow-duration="3s">
             <div class="row justify-content-center">
-                <div class="mbr-white col-10">
-                    <h2 class="mbr-section-title align-center py-5 mbr-bold  display-1">Renow</h2>
-                    <p class=" align-center py-2 display-5">Professional organization in Southern California</p>
+                <div class="col-10">
+                    <h2 class=" align-center py-5 display-1" >Renow</h2>
+                    <p class=" align-center pt-2 display-5">Professional organization in Southern California</p>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col">
-                    <p class=" align-center py-5 display-5">Coming soon...</p>
+                    <p class=" align-center py-4 display-3 spacing">Coming soon...</p>
                 </div>
             </div>
 
-            <div class="row y-2 ">
+            <div class="row">
                 <div class="col mx-auto">
-                    <span id="day" class="dateTime"></span>
-                    <span id="hour" class="dateTime"></span>
-                    <span id="min" class="dateTime"></span>
-                    <span id="sec" class="dateTime"></span>
+                    <p id="day" class="dateTime"></p>
+                    <p id="hour" class="dateTime"></p>
+                    <p id="min" class="dateTime"></p>
+                    <p id="sec" class="dateTime"></p>
                 </div>
             </div>
-
         </div>
 
 
@@ -79,23 +75,10 @@
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            // const timeEl = document.createElement('div')
-            // const daysText = document.createElement('span')
-            // const hoursText = document.createElement('span')
-            // const minText = document.createElement('span')
-            // const secText = document.createElement('span')
-            //
-            // daysText.textContent = "days"
-            // hoursText.textContent = "hours"
-            // minText.textContent = "min"
-            // secText.textContent = "sec"
-            //
-            // timeEl.appendChild(daysText)
-
-            document.getElementById("day").innerHTML = days + "d "
-            document.getElementById("hour").innerHTML = hours + "h "
-            document.getElementById("min").innerHTML = minutes + "m "
-            document.getElementById("sec").innerHTML = seconds + "s ";
+            document.getElementById("day").innerHTML = days + " d"
+            document.getElementById("hour").innerHTML = hours + " h"
+            document.getElementById("min").innerHTML = minutes + " m"
+            document.getElementById("sec").innerHTML = seconds + " s";
 
             // If the count down is over, write some text
             if (distance < 0) {
@@ -104,6 +87,16 @@
             }
         }, 1000);
     </script>
+
+    <script src="jquery.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- form js -->
+    <!-- <script src="formjs.js"></script> -->
 </body>
 
 </html>
