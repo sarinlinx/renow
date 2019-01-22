@@ -1,10 +1,9 @@
 /*______________________________
+
 Positioning
 _______________________________*/
 
 section {
-  /* background-color: #eeeeee; */
-  /* color: #232323; */
   position: relative;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -45,7 +44,6 @@ _______________________________*/
 
 .display-1 {
   font-family: 'Charm', cursive;
-  /* font-style: italic; */
   font-size: 9.25rem;
   background: linear-gradient(to right, #fcffc5 0%, #00c5c7 100%);
   -webkit-background-clip: text;
@@ -62,7 +60,6 @@ _______________________________*/
 
 .display-5 {
   font-family: 'Charm', cursive;
-  /* font-family: 'Merriweather', serif; */
   font-size: 2rem;
   background: linear-gradient(to right, #00fcff 0%, #00c5c7 100%);
   -webkit-background-clip: text;
@@ -70,7 +67,7 @@ _______________________________*/
 }
 
 .header {
-  background-image: url("coming-soon-bg.jpg");
+  background-image: url("coming-soon-bg-sm.png");
 }
 
 .dateTime {
@@ -131,7 +128,7 @@ _______________________________*/
 }
 
 #thankyou_message {
-  /*hidden opactiy*/
+  font-family: 'Merriweather', serif;
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.3);
   -moz-border-radius: 15px;
@@ -162,16 +159,13 @@ _______________________________*/
 /* Removes red auto border on required field in Firefox */
 
 input, textarea {
-  /* border: solid 1px blue; */
   box-shadow: none;
 }
 
 #SubmitBtn {
-  /* background-color: #83f9ff; */
   border: none;
   background-image: linear-gradient(to right, #00f3ff, #a7a7a7);
   color: #000;
-  /* opacity: 0.8; */
   font-size: 1.3rem;
   -moz-border-radius: 15px;
   -webkit-borde-radius: 15px;
@@ -182,4 +176,29 @@ input, textarea {
 #SubmitBtn:hover {
   background-image: linear-gradient(to right, #d7d7d7, #00f3ff);
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .display-1 {
+    font-size: 5rem;
+  }
+  .display-3 {
+    font-size: 2rem;
+  }
+  .display-5 {
+    font-size: 1.5rem;
+  }
+  #day, #hour, #min, #sec {
+    font-size: 1rem;
+  }
+  #contact-us-text {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  #form-text-message {
+    font-size: 1rem;
+  }
+  .header {
+    background-image: url("coming-soon-bg-sm.png");
+  }
 }

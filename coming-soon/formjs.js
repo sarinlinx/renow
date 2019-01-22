@@ -58,8 +58,8 @@ function handleFormSubmit(event) { // handles article form submit without any jq
       //Face in Thank you message
       // document.getElementById('thankyou_message').style.display = 'block';
       document.getElementById('thankyou_message').style.opacity = 1;
-      document.getElementById('thankyou_message').style.WebkitTransition = 'opacity 3s linear';
-      document.getElementById('thankyou_message').style.MozTransition = 'opacity 3s linear';
+      document.getElementById('thankyou_message').style.WebkitTransition = 'opacity 1s linear';
+      document.getElementById('thankyou_message').style.MozTransition = 'opacity 1s linear';
 
       //Fade out 'Contact us' text
       // document.getElementById('contact-us-text').style.display = 'none';
