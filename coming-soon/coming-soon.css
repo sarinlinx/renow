@@ -5,9 +5,9 @@ _______________________________*/
 section {
   /* background-color: #eeeeee; */
   /* color: #232323; */
-  /* position: relative; */
-  /* background-position: 50% 50%; */
-  /* background-repeat: no-repeat; */
+  position: relative;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -93,4 +93,93 @@ _______________________________*/
 
 .spacing {
   margin-top: 3rem;
+}
+
+/* Border of form fields */
+
+.form-control {
+  border-color: #b1b1b1;
+}
+
+.form-control::placeholder {
+  color: #fff;
+}
+
+.form-control:focus {
+  border-color: #00e3ff;
+  box-shadow: inset 0 1px 1px rgba(252, 255, 181, .075), 0 0 8px rgba(252, 255, 181, .6);
+}
+
+/* My Form*/
+
+#contact-us-text {
+  font-size: 3.5rem;
+  margin-top: 9rem;
+  font-family: 'Merriweather', serif;
+  font-styel: italic;
+  background: linear-gradient(to right, #fff6d5 0%, #c0fff2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#form-text-message {
+  font-family: 'Merriweather', serif;
+  font-size: 1.3rem;
+  background: linear-gradient(to right, #00fcff 0%, #c0fff2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#thankyou_message {
+  /*hidden opactiy*/
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  -moz-border-radius: 15px;
+  -webkit-borde-radius: 15px;
+  border-radius: 15px;
+  padding: 10px;
+  background: linear-gradient(to right, #00fcff 0%, #00c5c7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#namebox {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#emailbox {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#textbox {
+  color: #fff;
+  margin-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Removes red auto border on required field in Firefox */
+
+input, textarea {
+  /* border: solid 1px blue; */
+  box-shadow: none;
+}
+
+#submit-btn {
+  /* background-color: #83f9ff; */
+  border: none;
+  background-image: linear-gradient(to right, #00f3ff, #a7a7a7);
+  color: #000;
+  /* opacity: 0.8; */
+  font-size: 1.3rem;
+  -moz-border-radius: 15px;
+  -webkit-borde-radius: 15px;
+  border-radius: 15px;
+  transition: 0.6s;
+}
+
+#submit-btn:hover {
+  background-image: linear-gradient(to right, #d7d7d7, #00f3ff);
+  font-size: 1.5rem;
 }

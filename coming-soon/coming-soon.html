@@ -30,7 +30,7 @@
         <div class="container align-center">
             <div class="row justify-content-center wow fadeIn" data-wow-delay="1s" data-wow-duration="3s">
                 <div class="col-10">
-                    <h2 class=" align-center py-5 display-1" >Renow</h2>
+                    <h2 class=" align-center py-5 display-1">Renow</h2>
                     <p class=" align-center pt-2 display-5">Professional organization in Southern California</p>
                 </div>
             </div>
@@ -49,10 +49,60 @@
                     <p id="sec" class="dateTime"></p>
                 </div>
             </div>
+
+
+
+
+            <!-- <section id="contact">
+                <div class="container text-center wow fadeIn" data-wow-delay="0.5s"> -->
+            <div class="row my-5">
+                <div class="col pt-5">
+                    <h1 id="contact-us-text">Contact us</h1>
+                    <hr width="30%">
+                    <p id="form-text-message">Please fill out form below and we'll get back to you shortly.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-8 mx-auto">
+
+                    <!-- div to set form width -->
+                    <div id="thankyou_message">
+                        <h2>Thank you! We'll be in touch shortly.</h2>
+                    </div>
+                    <!--action sends to Google script-->
+                    <form id="gform" action="https://script.google.com/macros/s/AKfycbxlcKmLuNk0cCgsIM4nkbBvkS6wSumJNQ4IiUS0O03pQfZbi8I/exec" method="post">
+                        <input type="hidden" id="wasformsubmitted" name="form-submitted">
+                        <fieldset class="form-group">
+                            <input id="namebox" name="name" type="text" class="form-control form-control-sm form-style" id="name" placeholder="name" required>
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <input id="emailbox" name="email" type="email" class="form-control form-control-sm form-style" id="email" placeholder="email" required>
+                        </fieldset>
+                        <fieldset class="form-group">
+                            <textarea id="textbox" name="message" class="form-control form-control-sm form-style" id="message" placeholder="message" rows="10" maxlength="500" required></textarea>
+                        </fieldset>
+
+                        <!-- <input id="SubmitBtn" type="submit" value="Submit"> -->
+                        <button id="submit-btn">Submit</button>
+
+                    </form>
+
+
+                </div>
+            </div>
+            <!-- </div>
+
+        </section> -->
         </div>
-
-
     </section>
+
+
+
+
+
+
+
 
 
 
