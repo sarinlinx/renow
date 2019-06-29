@@ -43,7 +43,9 @@ ___________________________________________________*/
 
 a.nav-item.nav-link.nav-link-style {
   /* off white */
-  color: #ffe8a9;
+  /* color: #ffe8a9; */
+  /* gray blue*/
+  color: #A1EAF4;
   transition: all 0.8s ease-in-out;
 }
 
@@ -57,7 +59,9 @@ a.nav-item.nav-link.nav-link-style {
 
 .navbar-dark .navbar-toggler {
   /* off white */
-  border-color: #ffe8a9;
+  /* border-color: #ffe8a9; */
+  /* gray blue*/
+  border-color: #85b5b4;
 }
 
 #arrow {
@@ -73,7 +77,41 @@ _____________________________________________________*/
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../img/header-bg.jpg");
+  /* background-image: url("../img/header/mountain.jpg"); */
+}
+
+/* Main Header images by breakpoint */
+/* xs */
+#main-header {
+    background-image: url("../img/header/mountain-xs.jpg");
+}
+
+/* sm */
+@media (min-width: 768px) {
+  #main-header {
+        background-image: url("../img/header/mountain-768.jpg");
+    }
+}
+
+/* md */
+@media (min-width: 992px) {
+  #main-header {
+        background-image: url("../img/header/mountain-992.jpg");
+    }
+}
+
+/* lg */
+@media (min-width: 1200px) {
+    #main-header {
+        background-image: url("../img/header/mountain-1200.jpg");
+    }
+}
+
+/* xl */
+@media (min-width: 1600px) {
+    #main-header {
+        background-image: url("../img/header/mountain-1600.jpg");
+    }
 }
 
 .fullscreen {
@@ -185,12 +223,107 @@ _______________________________________________________*/
 /*_____________________________________________________
 About
 _______________________________________________________*/
+/* 3 images with breakpoints  */
+/* xs */
+#about1 {
+    background-image: url("../img/about/about1-xs.jpg");
+}
+
+/* sm */
+@media (min-width: 768px) {
+  #about1 {
+      background-image: url("../img/about/about1-768.jpg");
+  }
+}
+
+/* md */
+@media (min-width: 992px) {
+  #about1 {
+      background-image: url("../img/about/about1-992.jpg");
+  }
+}
+
+/* lg */
+@media (min-width: 1200px) {
+  #about1 {
+      background-image: url("../img/about/about1-1200.jpg");
+  }
+}
+
+/* xl */
+@media (min-width: 1600px) {
+  #about1 {
+      background-image: url("../img/about/about1-1600.jpg");
+  }
+}
+
+
+
+/* xs */
+#about2 {
+    background-image: url("../img/about/about2-xs.jpg");
+}
+
+/* sm */
+@media (min-width: 768px) {
+  #about2 {
+      background-image: url("../img/about/about2-768.jpg");
+  }
+}
+
+/* md */
+@media (min-width: 992px) {
+  #about2 {
+      background-image: url("../img/about/about2-992.jpg");
+  }
+}
+
+/* lg */
+@media (min-width: 1200px) {
+  #about2 {
+      background-image: url("../img/about/about2-1200.jpg");
+  }
+}
+
+/* xl */
+@media (min-width: 1600px) {
+  #about2 {
+      background-image: url("../img/about/about2-1600.jpg");
+  }
+}
+
+
+
+
+
+/* xs */
+#about3 {
+    background-image: url("../img/about/about3-xs.jpg");
+}
+
+/* sm */
+@media (min-width: 768px) {
+  #about3 {
+      background-image: url("../img/about/about3-768.jpg");
+  }
+}
+
+/* md */
+@media (min-width: 992px) {
+  #about3 {
+      background-image: url("../img/about/about3-992.jpg");
+  }
+}
+
+
 
 #about {
-  /* background: linear-gradient(to bottom, rgba(234, 234, 234, 1), rgba(117, 203, 231, 1)); */
-  background: linear-gradient(to bottom, rgba(2255,255,255, 1), rgba(240,240,240, 1));
+background: linear-gradient(to right, #fff 60%, #E1E1FF 100%);
+  /* background: linear-gradient(to right, rgba(241,241,241, 1), rgba(209,252,255, 1)); */ */
+  /* background: linear-gradient(to bottom, rgba(255,255,255, 1), rgba(240,240,240, 1)); */
   color: #000;
-  padding-top: 15rem;
+  padding-top: 5rem;
+
 }
 
 .about-title-text {
